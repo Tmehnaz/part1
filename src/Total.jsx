@@ -1,9 +1,9 @@
 
 
-const Total= (props)=>{
+const Total= ({exercises1,exercises2,exercises3})=>{
     return(
         <>
-          <p> Total no tasks: {props.exercise1 + props.exercise2 + props.exercise3}</p>
+          <p> Total no tasks: {exercises1 + exercises2 + exercises3}</p>
         </>
     )
 }

@@ -28,7 +28,7 @@ const App = () => {
                name2={parts[1].name} exercises2={parts[1].exercises}
                name3={parts[2].name}  exercises3={parts[2].exercises} />
 
-      <Total exercise1={10} exercise2={7} exercise3={14}/>
+      <Total exercises1={parts[0].exercises} exercises2={parts[1].exercises} exercises3={parts[2].exercises}/>
       
     </div>
   )
